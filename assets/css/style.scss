@@ -1,0 +1,88 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+
+:root{
+    --graywish-blue: #7599B9;
+    --white: #ffffff;
+    --black: #000000;
+    --light-yellow: #ECF1A9;
+    --fs-14: 14px;
+    --fs-16: 16px;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+// blog page
+.blog-page{
+    height: auto;
+    background-color: var(--white);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--fs-14);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.name{
+    font-size: var(--fs-16);
+    cursor: pointer;
+}
+
+.nav-btns{
+    display: flex;
+    align-items: center;
+}
+
+.perpendicular{
+    transform: translateY(25);
+    transform: rotate(90deg);
+    border: 1px solid var(--black);
+    background-color: var(--black);
+}
+
+.news{
+    cursor: pointer;
+}
+
+.gallery{
+    background-color: var(--light-yellow);
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
