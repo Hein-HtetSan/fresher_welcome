@@ -16863,6 +16863,7 @@ progress {
   --light-yellow: #ECF1A9;
   --fs-14: 14px;
   --fs-16: 16px;
+  --fs-13: 13px;
 }
 
 * {
@@ -16879,6 +16880,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   font-size: var(--fs-14);
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .logo {
@@ -16922,4 +16925,27 @@ nav {
   padding: 5px 10px;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.post {
+  height: auto;
+}
+
+.datetime, .local-time {
+  font-size: var(--fs-13);
+}
+
+.contents {
+  font-size: var(--fs-14);
+  text-align: justify;
+}
+
+.pic {
+  width: 100%;
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-13);
 }/*# sourceMappingURL=style.css.map */
