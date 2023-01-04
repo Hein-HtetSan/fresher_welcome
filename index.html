@@ -18,13 +18,13 @@
 
         <!--home page row-->
         <div class="row display-flex align-items-center justify-content-center">
-            <div class=" col-12 col-lg-12">
+            <div class=" col-12 col-md-7 col-lg-4">
                 
-                <div class="home-page py-3 px-2">
+                <div class="home-page py-4 px-2">
                     <!--start here-->
 
                     <!--card-->
-                    <div class="card mb-3 shadow-lg py-2 px-1 display-flex flex-direction-column align-items-center justify-content-center">
+                    <div class="card mb-3 shadow-lg py-4 px-1 display-flex flex-direction-column align-items-center justify-content-center">
 
                         <!--card nav-->
                         <nav class="px-3 py-3">
@@ -38,9 +38,13 @@
         
                             <!--Buttons-->
                             <div class="card-nav-btns">
-                                <div class="card-news-btn">Last news</div>
-                                <hr class="perpendicular px-2">
-                                <div class="card-gallery">Gallery</div>
+                                <a href="./assets/blog.html" class="linktoblog">
+                                    <div class="card-news-btn">Last news</div>
+                                </a>
+                                <hr class="perpendicular-white px-2">
+                                <a href="./assets/gallery.html" class="linktogallery">
+                                    <div class="card-gallery">Gallery</div>
+                                </a>
                             </div>
         
                         </nav>
@@ -61,12 +65,14 @@
                         </div>
 
                         <!--card-btn-->
-                        <div class="card-btn">
-                            <p class="pt-3 px-1">Check <br>what's new</p>
-                            <div class="pieces px-1">
-                                <img src="./assets/img/piecesUnion.svg" alt="">
+                        <a href="./assets/blog.html" class="linktoblog">
+                            <div class="card-btn">
+                                <p class="pt-3 px-1">Check <br>what's new</p>
+                                <div class="pieces px-1">
+                                    <img src="./assets/img/piecesUnion.svg" alt="">
+                                </div>
                             </div>
-                        </div>
+                        </a>
 
                     </div>
                     <!--end of card-->
@@ -80,38 +86,70 @@
                     </div>
 
                     <!--latest news-->
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper mb-5">
                         <div class="swiper-wrapper">
 
                           <div class="swiper-slide">
-                            <div class="latest-news-box">
-
+                            <div class="latest-news-box p-2">
+                                <div class="n-datetime">
+                                    <span class="n-dd">4</span>
+                                    <span class="n-mm">Jan</span>
+                                    <span class="n-yy">2023</span>
+                                </div>
+                                <div class="n-time">4:30 PM</div>
+                                <div class="n-par pt-2">Lorem ipsum dolor dolor dolor elit.</div>
+                                <img src="./assets/img/img.svg" class="card-img pt-3" alt="">
                             </div>
                           </div>
 
                           <div class="swiper-slide">
                             <div class="latest-news-box">
-
+                                <div class="latest-news-box p-2">
+                                    <div class="n-datetime">
+                                        <span class="n-dd">4</span>
+                                        <span class="n-mm">Jan</span>
+                                        <span class="n-yy">2023</span>
+                                    </div>
+                                    <div class="n-time">4:30 PM</div>
+                                    <div class="n-par pt-2">Lorem ipsum dolor dolor dolor elit.</div>
+                                    <img src="./assets/img/img.svg" class="card-img pt-3" alt="">
+                                </div>
                             </div>
                           </div>
 
                           <div class="swiper-slide">
                             <div class="latest-news-box">
-
+                                <div class="latest-news-box p-2">
+                                    <div class="n-datetime">
+                                        <span class="n-dd">4</span>
+                                        <span class="n-mm">Jan</span>
+                                        <span class="n-yy">2023</span>
+                                    </div>
+                                    <div class="n-time">4:30 PM</div>
+                                    <div class="n-par pt-2">Lorem ipsum dolor dolor dolor elit.</div>
+                                    <img src="./assets/img/img.svg" class="card-img pt-3" alt="">
+                                </div>
                             </div>
                           </div>
 
                           <div class="swiper-slide">
                             <div class="latest-news-box">
-
+                                <div class="latest-news-box p-2">
+                                    <div class="n-datetime">
+                                        <span class="n-dd">4</span>
+                                        <span class="n-mm">Jan</span>
+                                        <span class="n-yy">2023</span>
+                                    </div>
+                                    <div class="n-time">4:30 PM</div>
+                                    <div class="n-par pt-2">Lorem ipsum dolor dolor dolor elit.</div>
+                                    <img src="./assets/img/img.svg" class="card-img pt-3" alt="">
+                                </div>
                             </div>
                           </div>
-
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                         <div class="swiper-pagination"></div>
                     </div>
+                    <!--end of latest news-->
 
                 </div>
 

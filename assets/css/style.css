@@ -16865,7 +16865,9 @@ progress {
   --light-orange: #E9C46F;
   --lighter-blue: #A0DDED;
   --fs-14: 14px;
+  --fs-11: 11px;
   --fs-16: 16px;
+  --fs-15: 15px;
   --fs-13: 13px;
   --fs-17: 17px;
   --fs-18: 18px;
@@ -16897,6 +16899,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  text-decoration: none;
 }
 
 .logo-box {
@@ -16911,6 +16914,7 @@ nav {
 .name {
   font-size: var(--fs-16);
   cursor: pointer;
+  text-decoration: none !important;
 }
 
 .nav-btns {
@@ -16923,6 +16927,13 @@ nav {
   transform: rotate(90deg);
   border: 1px solid var(--black);
   background-color: var(--black);
+}
+
+.perpendicular-white {
+  transform: translateY(25);
+  transform: rotate(90deg);
+  border: 1px solid var(--white);
+  background-color: var(--white);
 }
 
 .news {
@@ -16975,6 +16986,7 @@ nav {
   border-radius: 34px;
   overflow: hidden;
   position: relative;
+  border: none;
 }
 
 .sub-container {
@@ -17085,10 +17097,77 @@ nav {
   width: 169px;
   height: 215px;
   background-color: var(--lighter-blue);
+  border-radius: 22px !important;
+  overflow: hidden;
+  text-align: left;
+  position: relative;
+}
+
+.latest-news-box > .n-datetime, .n-time {
+  font-size: var(--fs-11);
+}
+
+.latest-news-box > .n-par {
+  font-size: var(--fs-13);
 }
 
 .profile {
   width: 150px;
+}
+
+.linktoblog {
+  text-decoration: none;
+}
+
+.linktohome, .linktogallery {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.gallery-page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gallery-card {
+  width: 336px;
+  height: 428px;
+  background-color: var(--graywish-blue);
+  border-radius: 34px;
+  position: relative;
+  border: none;
+  transform: translateX(-5px);
+}
+
+.inner-card {
+  overflow: hidden;
+  width: 336px;
+  height: 315px;
+  background-color: var(--light-yellow);
+  border-radius: 43px;
+  transform: translateX(10px);
+}
+
+.takeAlook {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.catchOurMom {
+  position: relative;
+  left: 43%;
+  top: -30px;
+}
+
+.upArrow {
+  position: relative;
+  top: 30px;
+  left: 40px;
 }
 
 .swiper {
