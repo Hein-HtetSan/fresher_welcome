@@ -24,6 +24,7 @@
     --light-yellow: #ECF1A9;
     --light-blue: #83D3C6;
     --light-orange: #E9C46F;
+    --lighter-blue: #A0DDED;
     --fs-14: 14px;
     --fs-16: 16px;
     --fs-13: 13px;
@@ -179,7 +180,7 @@ nav{
     justify-content: center;
 }
 
-.card-news{
+.card-news-btn{
     color: var(--white);
     font-size: var(--fs-13);
     cursor: pointer;
@@ -250,3 +251,36 @@ nav{
     font-size: var(--fs-16);
     color: var(--white);
 }
+
+.latest-news-box{
+    width: 169px;
+    height: 215px;
+    background-color: var(--lighter-blue);
+}
+
+
+// swiper
+.swiper {
+        width: 100%;
+        height: auto;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
