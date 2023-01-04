@@ -16861,9 +16861,16 @@ progress {
   --white: #ffffff;
   --black: #000000;
   --light-yellow: #ECF1A9;
+  --light-blue: #83D3C6;
+  --light-orange: #E9C46F;
   --fs-14: 14px;
   --fs-16: 16px;
   --fs-13: 13px;
+  --fs-17: 17px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-22: 22px;
 }
 
 * {
@@ -16882,6 +16889,7 @@ nav {
   font-size: var(--fs-14);
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
 }
 
 .logo {
@@ -16948,4 +16956,126 @@ nav {
   display: flex;
   align-items: center;
   font-size: var(--fs-13);
+}
+
+.home-page {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 356px;
+  height: 518px;
+  background-color: var(--graywish-blue);
+  border-radius: 37px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sub-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-logo-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-logo-name {
+  color: var(--white);
+  font-size: var(--fs-14);
+  cursor: pointer;
+}
+
+.card-nav-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-news {
+  color: var(--white);
+  font-size: var(--fs-13);
+  cursor: pointer;
+}
+
+.card-gallery {
+  background-color: var(--light-yellow);
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: var(--fs-13);
+  cursor: pointer;
+}
+
+.card-title {
+  text-align: center;
+  font-size: var(--fs-22);
+  color: var(--white);
+}
+
+.card-contents {
+  text-align: center;
+  font-size: var(--fs-14);
+  color: var(--white);
+}
+
+.card-img {
+  border-radius: none !important;
+}
+
+.card-btn {
+  width: 188px;
+  height: 66px;
+  background-color: var(--light-blue);
+  border-radius: 25px;
+  box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.121);
+  transform: translateY(-15px);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-btn > p {
+  font-size: var(--fs-14);
+  color: var(--white);
+}
+
+.selection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection-box {
+  width: 178px;
+  height: 178px;
+  background-color: var(--light-orange);
+  border-radius: 35px;
+  overflow: hidden;
+  text-align: left;
+  padding: 20px 30px;
+  font-size: var(--fs-16);
+  color: var(--white);
 }/*# sourceMappingURL=style.css.map */
