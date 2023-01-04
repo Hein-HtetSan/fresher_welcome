@@ -16867,6 +16867,7 @@ progress {
   --light-orange: #E9C46F;
   --lighter-blue: #A0DDED;
   --blacken-gray: #5D5B5B;
+  --brown: #918181;
   --fs-14: 14px;
   --fs-11: 11px;
   --fs-16: 16px;
@@ -17135,8 +17136,7 @@ nav {
   justify-content: center;
   flex-direction: column;
 }
-
-.gallery-card {
+.gallery-page .gallery-card {
   width: 310px;
   height: 428px;
   background-color: var(--graywish-blue);
@@ -17155,8 +17155,7 @@ nav {
   transform: translateX(10px);
   position: relative;
 }
-
-.takeAlook {
+.inner-card .takeAlook {
   position: absolute;
   left: 29px;
   transform: rotate(-30deg);
@@ -17166,8 +17165,7 @@ nav {
   font-family: "Segoe Script", sans-serif !important;
   color: var(--blacken-gray);
 }
-
-.catchOurMom {
+.inner-card .catchOurMom {
   position: absolute;
   left: 39%;
   top: 55%;
@@ -17175,12 +17173,19 @@ nav {
   font-family: "MV Boli", sans-serif !important;
   color: var(--blacken-gray);
 }
-
-.upArrow {
+.inner-card .upArrow {
   position: absolute;
   bottom: 10px;
   right: 20px;
   scale: 0.9;
+}
+
+.king-queen-selection-btn {
+  background-color: var(--brown);
+  color: var(--white);
+  padding: 10px 40px;
+  border-radius: 38px;
+  transform: translateX(-65px);
 }
 
 .swiper {

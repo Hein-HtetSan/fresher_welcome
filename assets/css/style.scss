@@ -27,6 +27,7 @@
     --light-orange: #E9C46F;
     --lighter-blue: #A0DDED;
     --blacken-gray: #5D5B5B;
+    --brown: #918181;
     --fs-14: 14px;
     --fs-11: 11px;
     --fs-16: 16px;
@@ -297,6 +298,7 @@ nav{
     color: var(--black);
 }
 
+// gallery page
 .gallery-page{
     width: 100%;
     height: auto;
@@ -304,18 +306,21 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    .gallery-card{
+        width: 310px;
+        height: 428px;
+        background-color: var(--graywish-blue);
+        border-radius: 34px;
+        position: relative;
+        border: none;
+        transform: translateX(-5px);
+    }
 }
 
-.gallery-card{
-    width: 310px;
-    height: 428px;
-    background-color: var(--graywish-blue);
-    border-radius: 34px;
-    position: relative;
-    border: none;
-    transform: translateX(-5px);
-}
 
+
+// inner card
 .inner-card{
     overflow: hidden;
     width: 320px;
@@ -324,33 +329,43 @@ nav{
     border-radius: 43px;
     transform: translateX(10px);
     position: relative;
+
+    .takeAlook{
+        position: absolute;
+        left: 29px;
+        transform: rotate(-30deg);
+        font-weight: bold;
+        font-size: 36px;
+        top: 50px;
+        font-family: 'Segoe Script', sans-serif !important;
+        color: var(--blacken-gray);
+    }
+    
+    .catchOurMom{
+        position: absolute;
+        left: 39%;
+        top: 55%;
+        text-align: end;
+        font-family: "MV Boli", sans-serif !important;
+        color: var(--blacken-gray);
+    }
+    
+    .upArrow{
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        scale: .9;
+    }
+    
 }
 
-.takeAlook{
-    position: absolute;
-    left: 29px;
-    transform: rotate(-30deg);
-    font-weight: bold;
-    font-size: 36px;
-    top: 50px;
-    font-family: 'Segoe Script', sans-serif !important;
-    color: var(--blacken-gray);
-}
 
-.catchOurMom{
-    position: absolute;
-    left: 39%;
-    top: 55%;
-    text-align: end;
-    font-family: "MV Boli", sans-serif !important;
-    color: var(--blacken-gray);
-}
-
-.upArrow{
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    scale: .9;
+.king-queen-selection-btn{
+    background-color: var(--brown);
+    color: var(--white);
+    padding: 10px 40px;
+    border-radius: 38px;
+    transform: translateX(-65px);
 }
 
 // swiper
