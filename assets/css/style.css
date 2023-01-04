@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.cdnfonts.com/css/segoe-script");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -17134,7 +17135,7 @@ nav {
 }
 
 .gallery-card {
-  width: 336px;
+  width: 310px;
   height: 428px;
   background-color: var(--graywish-blue);
   border-radius: 34px;
@@ -17145,7 +17146,7 @@ nav {
 
 .inner-card {
   overflow: hidden;
-  width: 336px;
+  width: 320px;
   height: 315px;
   background-color: var(--light-yellow);
   border-radius: 43px;
@@ -17156,6 +17157,7 @@ nav {
   position: relative;
   left: 20px;
   top: 20px;
+  font-family: "Segoe Script", sans-serif;
 }
 
 .catchOurMom {
@@ -17168,6 +17170,7 @@ nav {
   position: relative;
   top: 30px;
   left: 40px;
+  scale: 0.9;
 }
 
 .swiper {
