@@ -427,6 +427,21 @@ nav{
     }
 }
 
+.popular1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .photo1{
+        width: 165px;
+        height: 339px;
+        background-color: var(--brown);
+        border-top-right-radius: 95px;
+        border-bottom-right-radius: 95px;
+        transform: translateX(-65%);
+    }
+}
+
 // swiper
 .swiper {
         width: 100%;

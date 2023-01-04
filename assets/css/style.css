@@ -17244,6 +17244,20 @@ nav {
   cursor: pointer;
 }
 
+.popular1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular1 .photo1 {
+  width: 165px;
+  height: 339px;
+  background-color: var(--brown);
+  border-top-right-radius: 95px;
+  border-bottom-right-radius: 95px;
+  transform: translateX(-65%);
+}
+
 .swiper {
   width: 100%;
   height: auto;
