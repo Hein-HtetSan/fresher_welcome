@@ -16969,10 +16969,10 @@ nav {
 }
 
 .card {
-  width: 356px;
+  width: 326px;
   height: 518px;
   background-color: var(--graywish-blue);
-  border-radius: 37px;
+  border-radius: 34px;
   overflow: hidden;
   position: relative;
 }
@@ -17066,7 +17066,7 @@ nav {
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .selection-box {
@@ -17085,6 +17085,10 @@ nav {
   width: 169px;
   height: 215px;
   background-color: var(--lighter-blue);
+}
+
+.profile {
+  width: 150px;
 }
 
 .swiper {
