@@ -17245,6 +17245,9 @@ nav {
   color: var(--white);
   cursor: pointer;
 }
+.balls-box #sem1, .balls-box #sem2, .balls-box #sem3 {
+  text-decoration: none;
+}
 
 .popular1 {
   display: flex;
@@ -17311,6 +17314,24 @@ nav {
   bottom: 0;
   border-top-left-radius: 61px;
   border-top-right-radius: 61px;
+}
+
+.subgallery-page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.subgallery-page .subgallery-card {
+  width: 310px;
+  height: 428px;
+  background-color: var(--graywish-blue);
+  border-radius: 34px;
+  position: relative;
+  border: none;
+  margin-top: 40px;
 }
 
 .swiper {

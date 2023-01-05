@@ -427,6 +427,10 @@ nav{
         color: var(--white);
         cursor: pointer;
     }
+
+    #sem1, #sem2, #sem3{
+        text-decoration: none;
+    }
 }
 
 .popular1{
@@ -497,6 +501,29 @@ nav{
         border-top-right-radius: 61px;
     }
 }
+
+// sub gallery
+.subgallery-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .subgallery-card{
+        width: 310px;
+        height: 428px;
+        background-color: var(--graywish-blue);
+        border-radius: 34px;
+        position: relative;
+        border: none;
+        margin-top: 40px;
+    }
+}
+
+
+
 
 // swiper
 .swiper {
