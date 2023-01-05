@@ -16867,6 +16867,8 @@ progress {
   --light-orange: #E9C46F;
   --lighter-blue: #A0DDED;
   --blacken-gray: #5D5B5B;
+  --pink: #EA9696;
+  --violet: #812A61;
   --brown: #918181;
   --fs-14: 14px;
   --fs-11: 11px;
@@ -16887,6 +16889,26 @@ progress {
 .blog-page {
   height: auto;
   background-color: var(--white);
+}
+
+.blognav {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: var(--graywish-blue);
+}
+
+.navbarRow {
+  width: 400px;
+  position: relative;
+  height: auto;
+}
+
+.blankbox {
+  width: 100%;
+  height: 70px;
+  position: relative;
 }
 
 nav {
@@ -17326,12 +17348,47 @@ nav {
 }
 .subgallery-page .subgallery-card {
   width: 310px;
-  height: 428px;
+  height: 408px;
   background-color: var(--graywish-blue);
   border-radius: 34px;
   position: relative;
   border: none;
   margin-top: 40px;
+}
+.subgallery-page .subgallery-card .subgallery-btn {
+  margin-top: 35px;
+  width: 191px;
+  height: 65px;
+  background-color: var(--brown);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.subgallery-page .subgallery-card .kingBtn-and-queenBtn {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.subgallery-page .subgallery-card .kingBtn-and-queenBtn .kingbtn, .subgallery-page .subgallery-card .kingBtn-and-queenBtn .queenbtn {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  cursor: pointer;
+}
+.subgallery-page .subgallery-card .kingBtn-and-queenBtn .kingbtn {
+  background-color: var(--violet);
+}
+.subgallery-page .subgallery-card .kingBtn-and-queenBtn .queenbtn {
+  background-color: var(--pink);
 }
 
 .swiper {
